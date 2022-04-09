@@ -1,0 +1,197 @@
+/*========================
+     common style 
+========================== */
+:root {
+    --text-color: #ff9f00;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.title span {
+    color: #000;
+}
+
+/*========================
+     Hero area style 
+========================== */
+.hero_area {
+    min-height: 100vh;
+}
+
+.inner_hero {
+    position: relative;
+}
+
+@media screen and (min-width:768px) {
+    .inner_hero {
+        top: 50vh;
+        transform: translateY(-50%);
+    }
+}
+
+.hero_left_Content h2 {
+    font-size: 2rem;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero_left_Content .hero_muname {
+    color: var(--text-color);
+}
+
+.hero_left_Content p {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 14px;
+    color: #4d5e65;
+}
+
+.dotted_background {
+    width: 150px;
+    height: 150px;
+    background: url(media/images/dotted.png);
+    top: -140px;
+    position: relative;
+    z-index: 4;
+}
+
+.myImg {
+    width: 300px;
+    background: #f6665f;
+    z-index: 5;
+}
+
+.myImg img {
+    width: 300px;
+}
+
+.small_circle {
+    width: 70px;
+    height: 70px;
+    background-color: #5250d5;
+    right: 15px;
+    bottom: 15px;
+}
+
+/*========================
+    Latest workink style 
+========================== */
+.project {
+    background: #eaebed;
+}
+
+.project_card {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inner_card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px lightgray,
+        2px 2px 10px lightgray,
+        2px 2px 14px gray;
+}
+
+.inner_card img {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+/*========================
+    Footer style 
+========================== */
+.footer_sec {
+    background: #121035;
+}
+
+.footer_left .programming_heroLink {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_left .programming_heroLink img {
+    width: 50px;
+}
+
+.footer_left .programming_heroLink span {
+    font-weight: normal;
+}
+
+.footer_left ul {
+    list-style: none;
+}
+
+.footer_left ul li {
+    margin-bottom: 10px;
+}
+
+.footer_left ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_left ul li a span {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.footer_left img {
+    width: 200px;
+}
+
+.footer_center .footer_quick_links {
+    list-style: none;
+}
+
+.footer_center .footer_quick_links li {
+    margin-bottom: 5px;
+}
+
+.footer_center .footer_quick_links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_social_links {
+    list-style: none;
+}
+
+.footer_social_links li {
+    display: inline-block;
+}
+
+.footer_social_links li a {
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.footer_right img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width:768px) {
+    .footer_right img {
+        width: 350px;
+        border-radius: 15px;
+    }
+}
